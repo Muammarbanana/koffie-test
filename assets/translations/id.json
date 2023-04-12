@@ -7,8 +7,12 @@
         "pleaseInputYourLastName": "Masukkan nama belakang",
         "thisFieldRequired": "Field ini wajib diisi",
         "invalidEmailFormat": "Format email tidak valid",
+        "loginSuccess": "Berhasil masuk",
         "login": "Masuk",
         "register": "Daftar",
         "doesntHaveAccount": "Belum punya akun?"
+    },
+    "homepage": {
+        "welcome": "Selamat datang"
     }
 }

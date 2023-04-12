@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:koffie/features/authentication/cubit/login/login_cubit.dart';
 
 import 'features/authentication/cubit/register/register_cubit.dart';
 import 'features/authentication/views/login_page.dart';
@@ -37,7 +38,10 @@ class MyApp extends StatelessWidget {
         providers: [
           BlocProvider(
             create: (context) => RegisterCubit(),
-          )
+          ),
+          BlocProvider(
+            create: (context) => LoginCubit(),
+          ),
         ],
         child: MaterialApp(
           title: 'Koffie',

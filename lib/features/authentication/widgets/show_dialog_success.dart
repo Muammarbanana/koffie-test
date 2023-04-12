@@ -41,12 +41,14 @@ class _ShowDialogResponseState extends State<ShowDialogResponse> {
                     color: Colors.green,
                   ),
             SizedBox(height: 20.h),
-            Text(widget.message,
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 16.sp,
-                )).tr(),
+            Text(
+              widget.message,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 16.sp,
+              ),
+            ),
           ],
         ),
       ),

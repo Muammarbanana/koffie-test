@@ -166,6 +166,7 @@ class _RegisterPageState extends State<RegisterPage> {
 
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Colors.white,
         body: Padding(
           padding: EdgeInsets.fromLTRB(25.w, 25.h, 25.w, 20.h),
           child: SingleChildScrollView(

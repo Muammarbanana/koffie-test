@@ -8,9 +8,12 @@ abstract class  LocaleKeys {
   static const onboarding_pleaseInputYourLastName = 'onboarding.pleaseInputYourLastName';
   static const onboarding_thisFieldRequired = 'onboarding.thisFieldRequired';
   static const onboarding_invalidEmailFormat = 'onboarding.invalidEmailFormat';
+  static const onboarding_loginSuccess = 'onboarding.loginSuccess';
   static const onboarding_login = 'onboarding.login';
   static const onboarding_register = 'onboarding.register';
   static const onboarding_doesntHaveAccount = 'onboarding.doesntHaveAccount';
   static const onboarding = 'onboarding';
+  static const home_welcome = 'home.welcome';
+  static const home = 'home';
 
 }

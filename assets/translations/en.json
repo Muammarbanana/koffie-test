@@ -7,8 +7,12 @@
         "pleaseInputYourLastName": "Please input your last name",
         "thisFieldRequired": "This field is required",
         "invalidEmailFormat": "Invalid email format",
+        "loginSuccess": "Login success",
         "login": "Login",
         "register": "Register",
         "doesntHaveAccount": "Doesn't have account?"
+    },
+    "home": {
+        "welcome": "Welcome"
     }
 }
