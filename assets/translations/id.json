@@ -1,0 +1,9 @@
+{
+    "onboarding": {
+        "pleaseInputYourEmail": "Masukkan email",
+        "pleaseInputPassword": "Masukkan kata sandi",
+        "login": "Masuk",
+        "register": "Daftar",
+        "doesntHaveAccount": "Belum punya akun?"
+    }
+}

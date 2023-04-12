@@ -1,0 +1,9 @@
+{
+    "onboarding": {
+        "pleaseInputYourEmail": "Please input your email",
+        "pleaseInputPassword": "Please input password",
+        "login": "Login",
+        "register": "Register",
+        "doesntHaveAccount": "Doesn't have account?"
+    }
+}
