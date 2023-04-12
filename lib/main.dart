@@ -1,8 +1,10 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import 'features/authentication/cubit/register/register_cubit.dart';
 import 'features/authentication/views/login_page.dart';
 
 void main() async {
@@ -31,16 +33,23 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(
       designSize: const Size(430, 932),
       useInheritedMediaQuery: true,
-      builder: (context, child) => MaterialApp(
-        title: 'Koffie',
-        localizationsDelegates: context.localizationDelegates,
-        locale: context.locale,
-        supportedLocales: context.supportedLocales,
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
+      builder: (context, child) => MultiBlocProvider(
+        providers: [
+          BlocProvider(
+            create: (context) => RegisterCubit(),
+          )
+        ],
+        child: MaterialApp(
+          title: 'Koffie',
+          localizationsDelegates: context.localizationDelegates,
+          locale: context.locale,
+          supportedLocales: context.supportedLocales,
+          debugShowCheckedModeBanner: false,
+          theme: ThemeData(
+            primarySwatch: Colors.blue,
+          ),
+          home: const LoginPage(),
         ),
-        home: const LoginPage(),
       ),
     );
   }
