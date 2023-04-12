@@ -2,6 +2,11 @@
     "onboarding": {
         "pleaseInputYourEmail": "Please input your email",
         "pleaseInputPassword": "Please input password",
+        "pleaseInputYourPhone": "Please input your phone number",
+        "pleaseInputYourFirstName": "Please input your first name",
+        "pleaseInputYourLastName": "Please input your last name",
+        "thisFieldRequired": "This field is required",
+        "invalidEmailFormat": "Invalid email format",
         "login": "Login",
         "register": "Register",
         "doesntHaveAccount": "Doesn't have account?"

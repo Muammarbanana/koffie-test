@@ -2,6 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:koffie/core/constants/theme.dart';
+import 'package:koffie/features/authentication/views/register_page.dart';
 import 'package:koffie/generated/locale_keys.g.dart';
 
 import '../../../core/widgets/custom_input_general.dart';
@@ -58,7 +59,14 @@ class _LoginPageState extends State<LoginPage> {
               width: 4.w,
             ),
             GestureDetector(
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const RegisterPage(),
+                  ),
+                );
+              },
               child: Text(
                 LocaleKeys.onboarding_register.tr(),
                 style: const TextStyle(color: Colors.blue),

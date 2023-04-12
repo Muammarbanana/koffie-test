@@ -2,6 +2,11 @@
     "onboarding": {
         "pleaseInputYourEmail": "Masukkan email",
         "pleaseInputPassword": "Masukkan kata sandi",
+        "pleaseInputYourPhone": "Masukkan nomor ponsel",
+        "pleaseInputYourFirstName": "Masukkan nama depan",
+        "pleaseInputYourLastName": "Masukkan nama belakang",
+        "thisFieldRequired": "Field ini wajib diisi",
+        "invalidEmailFormat": "Format email tidak valid",
         "login": "Masuk",
         "register": "Daftar",
         "doesntHaveAccount": "Belum punya akun?"
