@@ -12,6 +12,7 @@ abstract class  LocaleKeys {
   static const onboarding_login = 'onboarding.login';
   static const onboarding_register = 'onboarding.register';
   static const onboarding_doesntHaveAccount = 'onboarding.doesntHaveAccount';
+  static const onboarding_alreadyHaveAccount = 'onboarding.alreadyHaveAccount';
   static const onboarding = 'onboarding';
   static const home_welcome = 'home.welcome';
   static const home = 'home';

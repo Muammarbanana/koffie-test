@@ -10,7 +10,8 @@
         "loginSuccess": "Berhasil masuk",
         "login": "Masuk",
         "register": "Daftar",
-        "doesntHaveAccount": "Belum punya akun?"
+        "doesntHaveAccount": "Belum punya akun?",
+        "alreadyHaveAccount": "Sudah punya akun?"
     },
     "homepage": {
         "welcome": "Selamat datang"

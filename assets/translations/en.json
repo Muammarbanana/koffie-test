@@ -10,7 +10,8 @@
         "loginSuccess": "Login success",
         "login": "Login",
         "register": "Register",
-        "doesntHaveAccount": "Doesn't have account?"
+        "doesntHaveAccount": "Doesn't have account?",
+        "alreadyHaveAccount": "Already have an account?"
     },
     "home": {
         "welcome": "Welcome"

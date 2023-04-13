@@ -159,6 +159,25 @@ class _RegisterPageState extends State<RegisterPage> {
                 }),
             SizedBox(height: 8.h),
             buildButtonRegister(),
+            SizedBox(height: 8.h),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(LocaleKeys.onboarding_alreadyHaveAccount.tr()),
+                SizedBox(
+                  width: 4.w,
+                ),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.pop(context);
+                  },
+                  child: Text(
+                    LocaleKeys.onboarding_login.tr(),
+                    style: const TextStyle(color: Colors.blue),
+                  ),
+                )
+              ],
+            )
           ],
         ),
       );
